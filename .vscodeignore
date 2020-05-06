@@ -1,0 +1,11 @@
+.vscode/**
+.vscode-test/**
+.gitignore
+vsc-extension-quickstart.md
+/demo_code
+/src_themes
+/docs
+/site
+/public
+/pages
+/components

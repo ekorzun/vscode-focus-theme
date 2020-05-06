@@ -1,0 +1,39 @@
+
+
+.container {
+  height: 100vh;
+  display: flex
+}
+
+.pane {
+  height: 100%;
+  flex: 50%
+  /* // padding 2rem */
+}
+
+.subtitle {
+  color: #8d99a7;
+  font-family: "Roboto", sans-serif;
+  font-size: .87rem;
+  font-weight: 400;
+  letter-spacing: .1rem;
+  margin-top: .62rem;
+  margin-bottom: .62rem;
+  text-transform: uppercase;
+}
+
+.slide {
+  transition: all .2s;
+  opacity: 0;
+  position: absolute;
+}
+
+.slide.active {
+  opacity: 1
+}
+
+.pane > img {
+  display: block;
+  max-width: 100%;
+  border-radius: 5px;
+}
